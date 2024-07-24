@@ -33,7 +33,7 @@ LANGUAGE_OPTIONS = {
     "French": "FR",
     "German": "DE",
     "Japanese": "JA",
-    "Chinese": "ZH"
+    "Chinese": "ZH-HANS"
 }
 selected_language = st.sidebar.selectbox("Select Language", list(LANGUAGE_OPTIONS.keys()))
 

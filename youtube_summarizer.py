@@ -27,7 +27,7 @@ DEEPL_API_KEY = '6dd9714e-b419-4502-bd67-e746db6765d2:fx'
 # 언어 선택
 st.sidebar.title("Language Selection")
 LANGUAGE_OPTIONS = {
-    "English": "en",
+    "English": "EN-US",
     "Korean": "ko",
     "Spanish": "es",
     "French": "fr",

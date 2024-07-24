@@ -28,12 +28,12 @@ DEEPL_API_KEY = '6dd9714e-b419-4502-bd67-e746db6765d2:fx'
 st.sidebar.title("Language Selection")
 LANGUAGE_OPTIONS = {
     "English": "EN-US",
-    "Korean": "ko",
-    "Spanish": "es",
-    "French": "fr",
-    "German": "de",
-    "Japanese": "ja",
-    "Chinese": "zh"
+    "Korean": "KO",
+    "Spanish": "ES",
+    "French": "FR",
+    "German": "DE",
+    "Japanese": "JA",
+    "Chinese": "ZH"
 }
 selected_language = st.sidebar.selectbox("Select Language", list(LANGUAGE_OPTIONS.keys()))
 
